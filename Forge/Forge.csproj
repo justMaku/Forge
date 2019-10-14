@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PlatformTarget>x64</PlatformTarget>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Cng" Version="4.4.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.4.0" />
+    <PackageReference Include="FiddlerCore" Version="1.20191-beta" />
+    <PackageReference Include="Telerik.NetworkConnections.Linux" Version="0.1.1" />
+    <PackageReference Include="Telerik.NetworkConnections.Mac" Version="0.1.1" />
+    <PackageReference Include="Telerik.NetworkConnections.Windows" Version="0.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GlueManager.js" />
+  </ItemGroup>
+</Project>

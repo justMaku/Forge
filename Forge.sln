@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge", "Forge\Forge.csproj", "{01A0863C-5BAB-4E4E-9826-D6343B122627}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Debug|x64.Build.0 = Debug|Any CPU
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Release|x64.ActiveCfg = Release|Any CPU
+		{01A0863C-5BAB-4E4E-9826-D6343B122627}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B752B78-1D95-4652-808A-2686C2C235D9}
+	EndGlobalSection
+EndGlobal
